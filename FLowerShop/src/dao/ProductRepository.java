@@ -6,8 +6,7 @@ import dto.Product;
 
 public class ProductRepository {
 	
-
-	private  static ProductRepository instance=new ProductRepository();
+private  static ProductRepository instance=new ProductRepository();
 	private ArrayList<Product> listOfProducts = new ArrayList<Product>();
 	public static ProductRepository getInstance() {
 		return instance;
