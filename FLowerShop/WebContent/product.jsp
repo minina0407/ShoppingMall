@@ -54,7 +54,7 @@
                  
                         <form name="addForm" action="./addCart.jsp?id=<%=product.getProductId() %>" method="post">
                         		
-                            <p><a href="./cart.jsp" class="btn btn-warning" onclick="addToCart()">지금바로 구매하기</a> </p>
+                            <p><a href="./cart.jsp"  onclick="addToCart()" class="btn btn-warning" >지금바로 구매하기</a> </p>
                             
                              <a href="#"  onclick="addToCart()"  class="btn btn-outline-dark flex-shrink-0" type="button">
                                 	장바구니에 담기

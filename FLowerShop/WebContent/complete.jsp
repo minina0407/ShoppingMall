@@ -49,6 +49,8 @@
 		<h2 class="alert alert-warning">주문해주셔서 감사합니다</h2>
 		<p> 주문은 <%	out.println(shipping_shippingDate); %>에 발송될 예정입니다!
 		<p> 주문번호 : <% out.println(shipping_cartId); %>
+		</div>
+		</div>
 	
 </body>
 <%@ include file="footer.jsp"%>

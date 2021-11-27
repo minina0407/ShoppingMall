@@ -7,5 +7,5 @@ userName varchar(20),
 userEmail varchar(30),
 PRIMARY KEY(userID)
 )DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+insert into USER values ("minina","")
 select * from USER;
-delete from user;

@@ -52,7 +52,8 @@ font-family: 'Gowun Dodum', sans-serif;
                
                }
   		var RegExp = /^[a-zA-z0-9]{4,12}$/; 
-        if (!RegExp.test(userPassword)) {
+  		else 
+  		if (!RegExp.test(userPassword)) {
             alert("비밀번호는 영문 대소문자와 숫자 4~12자리로 입력해야합니다!");
             form.userPassword.value = "";
             form.userPassword.focus();

@@ -16,9 +16,7 @@
 	rel="stylesheet">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-<%
-	String cartId = session.getId();
-%>
+
 <style>
 * {
 	font-family: 'Gowun Dodum', sans-serif;
@@ -26,6 +24,9 @@
 </style>
 
 <title>장바구니</title>
+<%
+	String cartId = session.getId();
+%>
 </head>
 <body class= "bg-light">
 
